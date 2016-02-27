@@ -16,6 +16,7 @@
     "typings": "typings"
   },
   "devDependencies": {
+    "tslint": "3.5.0",
     "typescript": "1.8.2",
     "typings": "0.6.8"
   }
