@@ -6,5 +6,17 @@
   "bugs": "https://github.com/greypointco/opine/issues",
   "license": "Apache-2.0",
   "repository": "greypointco/opine",
-  "main": "./src/"
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch",
+    "preinstall": "typings install",
+    "prepublish": "npm run clean && typings install && tsc",
+    "typings": "typings"
+  },
+  "devDependencies": {
+    "typescript": "1.8.2",
+    "typings": "0.6.8"
+  }
 }
