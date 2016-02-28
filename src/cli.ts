@@ -15,7 +15,7 @@ const HELP = `
     ${chalk.dim(`# Update and apply blueprints in an existing project.`)}
     ${chalk.dim(`$`)} ${chalk.cyan('opine')} ${chalk.blue(`.`)}
 
-  Positional arguments:
+  Positional Arguments:
 
     ${chalk.green(`BLUEPRINT`)}:   A npm module containing an opine blueprint to apply to
                  ${chalk.blue(`DESTINATION`)}.  Multiple blueprints may be specified.
