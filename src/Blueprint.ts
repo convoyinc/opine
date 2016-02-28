@@ -13,7 +13,7 @@ export interface Blueprint {
   // Unfortunately, TypeScript doesn't appear to let us declare the signature
   // of the constructor.  So, pretend that it requires the following type:
   //
-  //   constructor();
+  //   constructor():void;
   //
   constructor:Function;
 }
