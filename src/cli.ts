@@ -30,7 +30,6 @@ const HELP = `
   Options:
 
     ${chalk.yellow(`--force, -f`)}  Commits changes without prompting for a review.
-
 `;
 
 export function run(argv:string[]) {
