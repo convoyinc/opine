@@ -9,7 +9,7 @@
     "noImplicitReturns": true,
     "outDir": "./dist/",
     "pretty": true,
-    "target": "es5"
+    "target": "es2015"
   },
   "compileOnSave": true,
   // Until https://github.com/Microsoft/TypeScript/pull/5980 lands, this must be

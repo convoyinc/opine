@@ -17,14 +17,17 @@
     "preinstall": "typings install",
     "prepublish": "npm run clean && typings install && tsc"
   },
-  "devDependencies": {
-    "tslint": "3.5.0",
-    "typescript": "1.8.2",
-    "typings": "0.6.8"
+  "engines": {
+    "node": ">= 4.0.0"
   },
   "dependencies": {
     "chalk": "1.1.1",
     "debug": "2.2.0",
     "meow": "sindresorhus/meow#3aa9a5e"
+  },
+  "devDependencies": {
+    "tslint": "3.5.0",
+    "typescript": "1.8.2",
+    "typings": "0.6.8"
   }
 }
