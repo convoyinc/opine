@@ -16,7 +16,7 @@
   // filled in manually.
   "files": [
     "typings/main.d.ts",
-    "src/index.ts",
-    "src/Model.ts"
+    "src/Blueprint.ts",
+    "src/index.ts"
   ]
 }

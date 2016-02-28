@@ -1,1 +1,1 @@
-export { default as Model, makeModel } from './Model';
+export { default as Blueprint, buildBlueprint } from './Blueprint';
