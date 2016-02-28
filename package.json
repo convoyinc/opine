@@ -8,6 +8,9 @@
   "repository": "greypointco/opine",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "bin": {
+     "opine": "./bin/opine"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "tsc --watch",

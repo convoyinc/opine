@@ -15,8 +15,10 @@
   // Until https://github.com/Microsoft/TypeScript/pull/5980 lands, this must be
   // filled in manually.
   "files": [
-    "typings/main.d.ts",
+    "src/BaseBlueprint.ts",
     "src/Blueprint.ts",
-    "src/index.ts"
+    "src/cli.ts",
+    "src/index.ts",
+    "typings/main.d.ts"
   ]
 }

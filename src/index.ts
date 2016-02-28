@@ -1,1 +1,2 @@
-export { default as Blueprint, buildBlueprint } from './Blueprint';
+export { default as BaseBlueprint, buildBlueprint } from './BaseBlueprint';
+export { default as Blueprint } from './Blueprint';
