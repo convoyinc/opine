@@ -15,8 +15,7 @@
     "clean": "rm -rf dist",
     "dev": "tsc --watch",
     "preinstall": "typings install",
-    "prepublish": "npm run clean && typings install && tsc",
-    "typings": "typings"
+    "prepublish": "npm run clean && typings install && tsc"
   },
   "devDependencies": {
     "tslint": "3.5.0",
