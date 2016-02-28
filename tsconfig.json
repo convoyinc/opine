@@ -21,6 +21,7 @@
     "src/cli.ts",
     "src/index.ts",
     "typings/custom/meow.d.ts",
+    "typings/custom/validate-npm-package-name.d.ts",
     "typings/main.d.ts"
   ]
 }
