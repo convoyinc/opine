@@ -24,7 +24,7 @@ declare module 'meow' {
       // Set it to false to disable it altogether.
       //
       // Defaults to the `version` property of `pkg`.
-      version?:string|boolean;
+      version?:string;
       // Relative path to package.json or as an object.
       //
       // Defaults to the closest `package.json` upwards.
@@ -35,11 +35,13 @@ declare module 'meow' {
       argv?:string[];
     }
 
+    type ParsedValue = string|boolean|number;
+
     export interface Parsed {
       // Non-flag arguments.
-      input:string[];
+      input:ParsedValue[];
       // Flags converted to camelCase.
-      flags:{[key:string]:string};
+      flags:{[key:string]:ParsedValue|ParsedValue[]};
       // The package.json object.
       pkg:Object;
       // The help text used with --help.
