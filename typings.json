@@ -3,7 +3,7 @@
   "dependencies": {
     "chalk": "github:typed-typings/npm-chalk#a7e422c5455e70292e5675a727d43a7b05fc3e58",
     "debug": "github:typed-typings/npm-debug#0e398cb21de268744dd048a11461be5c13230bad",
-    "minimist": "github:typed-typings/npm-minimist#9bfb8ebb1cf82abe2e16b00d6e0f59492224728e"
+    "minimist": "github:nevir/npm-minimist#ee1238d017cafa3c9d47d455af2198b1d711f089"
   },
   "devDependencies": {},
   "ambientDependencies": {
