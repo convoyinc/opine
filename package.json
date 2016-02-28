@@ -9,7 +9,7 @@
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "bin": {
-     "opine": "./bin/opine"
+    "opine": "./bin/opine"
   },
   "scripts": {
     "clean": "rm -rf dist",
@@ -24,6 +24,8 @@
     "typings": "0.6.8"
   },
   "dependencies": {
-    "meow": "3.7.0"
+    "chalk": "1.1.1",
+    "debug": "2.2.0",
+    "meow": "sindresorhus/meow#3aa9a5e"
   }
 }
