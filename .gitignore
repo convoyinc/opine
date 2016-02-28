@@ -4,4 +4,5 @@ npm-debug.log*
 
 # TypeScript
 /dist/
-/typings/
+/typings/*
+!/typings/custom/

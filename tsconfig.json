@@ -19,6 +19,7 @@
     "src/Blueprint.ts",
     "src/cli.ts",
     "src/index.ts",
+    "typings/custom/meow.d.ts",
     "typings/main.d.ts"
   ]
 }

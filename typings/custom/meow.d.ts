@@ -1,0 +1,47 @@
+declare module 'meow' {
+  import * as minimist from 'minimist';
+  export interface Options {
+    // A description to show above the help text.
+    //
+    // Set it to false to disable it altogether.
+    description?:string|boolean;
+    // The help text you want shown.
+    //
+    // The input is reindented and starting/ending newlines are trimmed which
+    // means you can use a template literal without having to care about using
+    // the correct amount of indent.
+    help?:string;
+    // Set a custom version output.
+    //
+    // Set it to false to disable it altogether.
+    //
+    // Defaults to the `version` property of `pkg`.
+    version?:string|boolean;
+    // Relative path to package.json or as an object.
+    //
+    // Defaults to the closest `package.json` upwards.
+    pkg?:string|Object;
+    // Custom arguments object.
+    //
+    // Defaults to `process.argv.slice(2)`.
+    argv?:string[];
+  }
+
+  export interface Parsed {
+    // Non-flag arguments.
+    input:string[];
+    // Flags converted to camelCase.
+    flags:{[key:string]:string};
+    // The package.json object.
+    pkg:Object;
+    // The help text used with --help.
+    help:Object;
+    // Show the help text and exit with code.  Defaults to 0.
+    showHelp(code?:number):void;
+  }
+
+  export default function meow(opts:Options):Parsed;
+  export default function meow(help:string):Parsed;
+  export default function meow(opts:Options, minimistOpts?:minimist.Options):Parsed;
+  export default function meow(help:string, minimistOpts?:minimist.Options):Parsed;
+}
