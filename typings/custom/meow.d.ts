@@ -3,8 +3,8 @@ declare module 'meow' {
 
   function meow(opts:meow.Options):meow.Parsed;
   function meow(help:string):meow.Parsed;
-  function meow(opts:meow.Options, minimistOpts?:minimist.Options):meow.Parsed;
-  function meow(help:string, minimistOpts?:minimist.Options):meow.Parsed;
+  function meow(opts:meow.Options, minimistOpts:minimist.Options):meow.Parsed;
+  function meow(help:string, minimistOpts:minimist.Options):meow.Parsed;
 
   module meow {
 
