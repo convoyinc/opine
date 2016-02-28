@@ -34,11 +34,18 @@ const HELP = `
 `;
 
 export function run(argv:string[]) {
-  const result = meow({
-    argv,
-    help: HELP,
-    description: false,
-  });
+  const result = meow(
+    {
+      argv,
+      help: HELP,
+      description: false,
+    },
+    {
+      alias: {
+        f: 'force',
+      },
+    }
+  );
   DEBUG('parsed flags:', result.flags);
   DEBUG('parsed args: ', result.input);
 }
