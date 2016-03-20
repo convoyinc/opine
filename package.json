@@ -2,10 +2,10 @@
   "name": "opine",
   "version": "0.0.0",
   "description": "Everyone's got opinions.",
-  "homepage": "https://github.com/greypointco/opine",
-  "bugs": "https://github.com/greypointco/opine/issues",
+  "homepage": "https://github.com/convoyinc/opine",
+  "bugs": "https://github.com/convoyinc/opine/issues",
   "license": "Apache-2.0",
-  "repository": "greypointco/opine",
+  "repository": "convoyinc/opine",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "bin": {
